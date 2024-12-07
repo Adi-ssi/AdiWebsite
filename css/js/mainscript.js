@@ -1,8 +1,8 @@
-    const link = document.createElement('link');
+const link = document.createElement('link');
     link.rel = 'icon';
-    link.href = 'images/logo.png';
+    link.href = 'css/images/logonav.png';
     link.type = 'image/png';
-    document.head.appendChild(link);
+    document.head.appendChild(link);"
 
 function checkLoginStatus() {
     const loggedIn = sessionStorage.getItem('loggedIn');
