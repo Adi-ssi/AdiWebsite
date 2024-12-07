@@ -1,3 +1,9 @@
+    const link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = 'logonav.png';
+    link.type = 'image/png';
+    document.head.appendChild(link);
+
 function checkLoginStatus() {
     const loggedIn = sessionStorage.getItem('loggedIn');
     if (loggedIn !== 'true') {
@@ -12,9 +18,3 @@ document.getElementById('logoutLink').addEventListener('click', function (event)
     sessionStorage.removeItem('loggedIn');
     window.location.href = "index.html";
 });
-    const link = document.createElement('link');
-    link.rel = 'icon';
-    link.href = 'logonav.png';
-    link.type = 'image/png';
-    document.head.appendChild(link);
-
