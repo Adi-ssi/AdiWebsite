@@ -1,6 +1,6 @@
     const link = document.createElement('link');
     link.rel = 'icon';
-    link.href = 'nyancat.png';
+    link.href = 'images/logo.png';
     link.type = 'image/png';
     document.head.appendChild(link);
 
