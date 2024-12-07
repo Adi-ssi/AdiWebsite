@@ -16,7 +16,7 @@
   cursor: pointer;
   height: 240px;
   border-style: solid;
-  text-align: center;
+  position: relative;
 }
 
 .card-content img {
