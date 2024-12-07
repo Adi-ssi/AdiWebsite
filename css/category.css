@@ -15,8 +15,8 @@
   border-radius: 0.75em;
   cursor: pointer;
   height: 240px;
-  position: relative;
   border-style: solid;
+  text-align: center;
 }
 
 .card-content img {
