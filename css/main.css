@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('Minecraft.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+ body {
+            font-family: 'Minecraft', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+.sidenav {
+    height: 100%;
+    width: 50px; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+
+
+.sidenav:hover {
+    width: 250px;
+}
+
+.sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    position: relative;
+}
+
+/* Icons */
+.sidenav-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.sidenav .text {
+    display: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.sidenav:hover .text {
+    display: inline-block;
+}
+
+/* Hover effect */
+.sidenav a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+.sidenav a.active {
+    background-color: #3B5249;
+    color: white;
+}
+
+.toggle {
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: -40px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#main {
+    margin-left: 50px;
+    padding: 20px;
+    transition: margin-left .5s;
+}
+        .banner {
+            background-image: url('images/bannerrecipe.gif');
+            background-size: cover;
+            background-position: center;
+            height: 1000px;
+            color: black;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+
+        .banner-container {
+            background-color: white; 
+            padding: 30px;
+            border-radius: 10px;
+            opacity: 0.8;
+    }
+        .banner h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .banner p {
+            font-size: 20px;
+        }
+
+        a {
+  text-decoration: none;
+  color: black;
+}
+
+.breadcrumbs {
+  margin-left: 100px;
+  position: relative;
+}
+
+.breadcrumbs a:hover {
+  color: red;
+  padding: 2px 5px; 
+}
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-top: 2px solid #000;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+}
